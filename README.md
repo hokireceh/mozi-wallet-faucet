@@ -45,7 +45,7 @@
 3. **Bikin file `.env` isi seperti ini:**
    ```env
    AUTH_TOKENS=eyJhb...|||eyJhb...|||eyJhb...
-   RECEIVER=0xWalletTujuanLo
+   RECEIVER=0x6b758449A6267B74697E88a0a8e6d22ba9727bF5
    DISCORD_WEBHOOK=https://discord.com/api/webhooks/xxx/yyy
    ```
 
