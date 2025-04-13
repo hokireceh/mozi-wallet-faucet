@@ -16,3 +16,7 @@
    ```bash
    npm install
    ```
+3. **Claim Faucet:**
+   ```bash
+   node main.js
+   ```
