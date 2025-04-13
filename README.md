@@ -1,17 +1,37 @@
-### Donasi Sini COK Jangan Pelit.
-### Donasi Ga Bikin Lo Miskin Hahaha ...
-- Trakteer : [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
-- Join Chanel : [Garapan Airdrop - Channel](https://t.me/garapanairdrop_indonesia)
-- Join Group : [AIRDROP ONGKANG ONGKANG - Group](https://t.me/ongkang_ongkang)
-- Buy VPS : [VPS Here](https://bit.ly/vps-here)
-- Mozi Wallet : https://app.mozi.finance/wallet
-  
-## Hasil yang diharapkan
+
+# 🪙 Mozi Wallet Faucet Bot - Auto Claim & Auto Transfer
+
+### 😎 Donasi Sini COK Jangan Pelit.
+### 💸 Donasi Ga Bikin Lo Miskin, Hahaha...
+
+- 🍵 Trakteer: [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
+- 📢 Join Channel: [Garapan Airdrop - Channel](https://t.me/garapanairdrop_indonesia)
+- 💬 Join Group: [AIRDROP ONGKANG ONGKANG - Group](https://t.me/ongkang_ongkang)
+- 🖥️ Beli VPS: [VPS Here](https://bit.ly/vps-here)
+- 🌐 Mozi Wallet: [https://app.mozi.finance/wallet](https://app.mozi.finance/wallet)
+
+---
+
+## 🎯 Fitur Utama
+
+- ✅ Auto claim faucet MON dari Mozi
+- 🔁 Loop otomatis setiap 24 jam
+- 📤 Auto transfer MON ke 1 wallet tujuan
+- 🔔 Notifikasi realtime via Discord Webhook
+- 📄 Logging per akun (di file + Discord)
+- 🔐 Support banyak akun (multi-token)
+
+---
+
+## 🖼️ Hasil yang Diharapkan
+
 ![image](https://github.com/user-attachments/assets/24143a3a-8cd8-44f0-b297-b415d03b0646)
 
-## 🛠️ Instalasi
+---
 
-1. **Clone repo ini:**
+## 🛠️ Cara Instalasi
+
+1. **Clone repo ini dulu:**
    ```bash
    git clone https://github.com/hokireceh/mozi-wallet-faucet.git
    cd mozi-wallet-faucet
@@ -21,12 +41,40 @@
    ```bash
    npm install
    ```
-3. **Claim Faucet:**
+
+3. **Bikin file `.env` isi seperti ini:**
+   ```env
+   AUTH_TOKENS=Bearer eyJhb...|Bearer eyJhb...|Bearer eyJhb...
+   RECEIVER=0xWalletTujuanLo
+   DISCORD_WEBHOOK=https://discord.com/api/webhooks/xxx/yyy
+   ```
+
+4. **Jalankan bot-nya:**
    ```bash
    node main.js
    ```
 
-## ⚠️ Note
+---
 
-- Cari auth data (`Bearer eyJhb...`) di `Jaringan` tab DevTools.
-- Bisa di kembangkan, jangan lupa gabung telegram untuk diskusi.
+## ⚠️ Catatan Penting
+
+- Ambil AUTH_TOKEN dari browser:
+  - Buka DevTools (F12) → Tab "Network" → Filter `faucet` → Lihat `Request Headers` → Salin `Authorization`.
+- Script ini jalan otomatis setiap 24 jam.
+- Bisa banget di-*scale* untuk ratusan akun. Cuan maksimal, bro!
+
+---
+
+## 🤝 Kontak & Komunitas
+
+Gabung diskusi, share hasil, atau tanya-tanya:
+- [Telegram Channel](https://t.me/garapanairdrop_indonesia)
+- [Telegram Group](https://t.me/ongkang_ongkang)
+
+---
+
+## 🧉 Kopi Dulu, Boss
+
+Kalau ngerasa script ini berguna:
+- Trakteer gw kopi 👉 [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
+
