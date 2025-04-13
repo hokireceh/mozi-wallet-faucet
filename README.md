@@ -1,4 +1,5 @@
-### Donasi Sini COK Jangan Pelit, Donasi Ga Bikin Lo Miskin Hahaha ...
+### Donasi Sini COK Jangan Pelit.
+### Donasi Ga Bikin Lo Miskin Hahaha ...
 - Trakteer : [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
 
 ## 🛠️ Instalasi
