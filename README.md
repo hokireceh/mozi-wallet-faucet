@@ -1,7 +1,9 @@
 ### Donasi Sini COK Jangan Pelit.
 ### Donasi Ga Bikin Lo Miskin Hahaha ...
 - Trakteer : [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
-- Join Channel : [https://t.me/garapanairdrop_indonesia](https://t.me/garapanairdrop_indonesia)
+- [Garapan Airdrop - Channel](https://t.me/garapanairdrop_indonesia)
+- [AIRDROP FINDER UPDATE - Group](https://t.me/airdrop_finder_update)
+- I recommend you use [VPS Here](https://bit.ly/vps-here)
 - Mozi Wallet : https://app.mozi.finance/wallet
 
 ## 🛠️ Instalasi
