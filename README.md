@@ -5,6 +5,7 @@
 - Join Group : [AIRDROP ONGKANG ONGKANG - Group](https://t.me/ongkang_ongkang)
 - Buy VPS : [VPS Here](https://bit.ly/vps-here)
 - Mozi Wallet : https://app.mozi.finance/wallet
+![image](https://github.com/user-attachments/assets/24143a3a-8cd8-44f0-b297-b415d03b0646)
 
 ## 🛠️ Instalasi
 
