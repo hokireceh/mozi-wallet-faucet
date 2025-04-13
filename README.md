@@ -6,8 +6,6 @@
 - Buy VPS : [VPS Here](https://bit.ly/vps-here)
 - Mozi Wallet : https://app.mozi.finance/wallet
 
-![image](https://github.com/user-attachments/assets/4c77b727-02df-42cf-ac93-3ca946c1d763)
-
 ## 🛠️ Instalasi
 
 1. **Clone repo ini:**
