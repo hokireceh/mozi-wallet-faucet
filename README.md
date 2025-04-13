@@ -20,3 +20,7 @@
    ```bash
    node main.js
    ```
+
+## ⚠️ Note
+
+- Cari auth data (`Bearer eyJhb...`) di `Jaringan` tab DevTools.
