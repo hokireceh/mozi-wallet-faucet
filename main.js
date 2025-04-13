@@ -5,7 +5,7 @@ const path = require("path");
 const readline = require("readline");
 
 const API_BASE = "https://api.mozi.finance";
-const TOKENS = process.env.AUTH_TOKENS.split("|").map(t => t.trim());
+const TOKENS = process.env.AUTH_TOKENS.split("|||").map(t => t.trim());
 const RECEIVER = process.env.RECEIVER;
 const WEBHOOK = process.env.DISCORD_WEBHOOK;
 
@@ -45,9 +45,13 @@ function logToFile(account, message) {
   fs.appendFileSync(logPath, logMsg);
 }
 
+const discordLogs = {};
+
 function log(account, message) {
   console.log(`[${account}] ${message}`);
   logToFile(account, message);
+  if (!discordLogs[account]) discordLogs[account] = [];
+  discordLogs[account].push(`[${account}] ${message}`);
 }
 
 async function sendDiscordNotification(account, title, message, txHash = null) {
@@ -67,6 +71,29 @@ async function sendDiscordNotification(account, title, message, txHash = null) {
     });
   } catch (err) {
     console.error("❌ Gagal kirim ke Discord:", err.message);
+  }
+}
+
+async function sendDiscordLogSummary(account) {
+  if (!WEBHOOK || !WEBHOOK.startsWith("https://")) return;
+  if (!discordLogs[account]) return;
+  const fullMessage = discordLogs[account].join("\n").slice(0, 4000);
+  try {
+    await axios.post(WEBHOOK, {
+      username: "Mozi Faucet Bot",
+      embeds: [
+        {
+          title: `📒 Laporan Akun: ${account}`,
+          description: `
+${fullMessage}`,
+          color: 0x3498db,
+          timestamp: new Date().toISOString(),
+          footer: { text: "Mozi Watchdog 🕵️" }
+        }
+      ]
+    });
+  } catch (err) {
+    console.error("❌ Gagal kirim log ringkasan ke Discord:", err.message);
   }
 }
 
@@ -153,6 +180,7 @@ async function runForAccount(token) {
   } else {
     log(username, `⚠️ MON tidak cukup untuk transfer.`);
   }
+  await sendDiscordLogSummary(username);
 }
 
 async function runLoop() {
