@@ -29,3 +29,4 @@
 ## ⚠️ Note
 
 - Cari auth data (`Bearer eyJhb...`) di `Jaringan` tab DevTools.
+- Bisa di kembangkan, jangan lupa gabung telegram untuk diskusi.
