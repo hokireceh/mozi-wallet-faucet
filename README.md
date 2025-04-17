@@ -51,7 +51,7 @@
 
 4. **Jalankan bot-nya:**
    ```bash
-   node main.js
+   node main.mjs
    ```
 
 ---
