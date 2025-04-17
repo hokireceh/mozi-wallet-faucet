@@ -59,8 +59,7 @@
 ## ⚠️ Catatan Penting
 
 - Ambil AUTH_TOKEN dari browser:
-  - Buka DevTools (F12) → Tab "Network" → Filter `faucet` → Lihat `Request Headers` → Salin `Authorization`.
-- Script ini jalan otomatis setiap 24 jam.
+- Buka DevTools (F12) → Tab "Console" → tempel ini ```JSON.parse(localStorage.getItem("auth"))```, tempel di json.js
 - Bisa banget di-*scale* untuk ratusan akun. Cuan maksimal, bro!
 
 ---
