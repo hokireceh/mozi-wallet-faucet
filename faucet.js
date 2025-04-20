@@ -32,10 +32,11 @@ const getUsernameFromToken = token => {
 
 const discordLogs = {};
 const log = (account, message) => {
-  console.log(`[${account}] ${message}`);
+  console.log(message);
   discordLogs[account] = discordLogs[account] || [];
-  discordLogs[account].push(`[${account}] ${message}`);
+  discordLogs[account].push(message);
 };
+
 
 const sendDiscordNotification = async (account, title, message, txHash = null) => {
   if (!WEBHOOK?.startsWith("https://")) return;
@@ -159,8 +160,9 @@ const runForAccount = async (pair) => {
   let token = pair.accessToken;
   const account = getUsernameFromToken(token);
   let headers = () => ({ Authorization: `Bearer ${token}` });
-  console.log("============================================================");
+  console.log("✘⋇⊶==========================⊷⋇✘");
   console.log(`🔍 GILIRAN MU: ${account}`);
+  console.log("✘⋇⊶==========================⊷⋇✘");
   try {
     await claimFaucet(account, headers());
     await delay(10000);
