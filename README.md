@@ -1,74 +1,46 @@
-
-# 🪙 Mozi Wallet Faucet Bot - Auto Claim & Auto Transfer
-
-### 😎 Donasi Sini COK Jangan Pelit.
-### 💸 Donasi Ga Bikin Lo Miskin, Hahaha...
-
-- 🍵 Trakteer: [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
-- 📢 Join Channel: [Garapan Airdrop - Channel](https://t.me/garapanairdrop_indonesia)
-- 💬 Join Group: [AIRDROP ONGKANG ONGKANG - Group](https://t.me/ongkang_ongkang)
-- 🖥️ Beli VPS: [VPS Here](https://bit.ly/vps-here)
-- 🌐 Mozi Wallet: [https://app.mozi.finance/wallet](https://app.mozi.finance/wallet)
+Berikut versi yang lebih toxic dan kocak:
 
 ---
 
-## 🎯 Fitur Utama
+````
 
-- ✅ Auto claim faucet MON dari Mozi
-- 🔁 Loop otomatis setiap 24 jam
-- 📤 Auto transfer MON ke 1 wallet tujuan
-- 🔔 Notifikasi realtime via Discord Webhook
-- 📄 Logging per akun (di file + Discord)
-- 🔐 Support banyak akun (multi-token)
+# BOT TELEGRAM 
 
----
+### 🤡 Woy COK! Mau bot ini jalan terus? Donasi dulu lah, pelit amat!
+### 💰 Donasi ga bikin lu miskin, tapi bikin gua semangat, WKWKWK...  
 
-## 🖼️ Hasil yang Diharapkan
+- 🍵 Trakteer : [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)  
+  (Mau ngopi? Nih gua ngasih link, tinggal klik, donasi, beres!)
 
-![image](https://github.com/user-attachments/assets/24143a3a-8cd8-44f0-b297-b415d03b0646)
+- 📢 Join Channel : [Garapan Airdrop - Channel](https://t.me/garapanairdrop_indonesia)  
+  (Biar ga kudet, join sini dulu COK!)
+
+- 💬 Join Group : [AIRDROP ONGKANG ONGKANG - Group](https://t.me/ongkang_ongkang)  
+  (Mau bacot bareng bocil kripto? Sini gabung!)
+
+- 🖥️ Beli VPS : [VPS Here](https://bit.ly/vps-here)  
+  (Daripada VPS lu kayak kentang, upgrade sini aja!)
 
 ---
 
 ## 🛠️ Cara Instalasi
 
-1. **Clone repo ini dulu:**
+1. **Clone repo jelek ini dulu :**
    ```bash
-   git clone https://github.com/hokireceh/mozi-wallet-faucet.git
-   cd mozi-wallet-faucet
-   ```
+   git clone https://github.com/hokireceh/filter-telegram.git
+   cd filter-telegram
+````
 
-2. **Install dependencies:**
+2. **Install dependencies, biar ga error:**
+
    ```bash
    npm install
    ```
 
-3. **Buka file `.env` atau bisa buka `json.js` untuk convert otomatis dari devtool .
+3. **Buka file `.env` dan isilah dengan sepenuh hati.**
 
-4. **Jalankan bot-nya:**
+4. **Jalankan bot-nya, terus jangan lupa donasi lagi COK!**
+
    ```bash
-   node main.mjs
+   node index.js
    ```
-
----
-
-## ⚠️ Catatan Penting
-
-- Ambil AUTH_TOKEN dari browser:
-- Buka DevTools (F12) → Tab "Console" → tempel ini ```JSON.parse(localStorage.getItem("auth"))```, tempel di json.js
-- Bisa banget di-*scale* untuk ratusan akun. Cuan maksimal, bro!
-
----
-
-## 🤝 Kontak & Komunitas
-
-Gabung diskusi, share hasil, atau tanya-tanya:
-- [Telegram Channel](https://t.me/garapanairdrop_indonesia)
-- [Telegram Group](https://t.me/ongkang_ongkang)
-
----
-
-## 🧉 Kopi Dulu, Boss
-
-Kalau ngerasa script ini berguna:
-- Trakteer gw kopi 👉 [https://trakteer.id/garapanairdrop/tip](https://trakteer.id/garapanairdrop/tip)
-
